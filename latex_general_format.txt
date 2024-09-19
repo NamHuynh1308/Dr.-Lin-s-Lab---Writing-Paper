@@ -1,0 +1,78 @@
+\documentclass[conference]{IEEEtran} % Document class
+
+% Import required packages
+\usepackage{graphicx}  % For including images
+\usepackage{url}       % For handling URLs
+
+% Title of the paper
+\title{Your Paper Title}
+
+% Author Information
+\author{
+  \IEEEauthorblockN{First Author}
+  \IEEEauthorblockA{email@domain.com\\
+  Affiliation\\
+  City, Country}
+  \and
+  \IEEEauthorblockN{Second Author}
+  \IEEEauthorblockA{email@domain.com\\
+  Affiliation\\
+  City, Country}
+}
+
+\begin{document}
+
+% Make the title
+\maketitle
+
+% Abstract Section
+\section{\textbf{Abstract}}
+\noindent
+Write your abstract here. This is a brief summary of your paper, usually 150-250 words.
+
+% Introduction Section
+\section{\textbf{Introduction}}
+\noindent
+This is where you introduce the background and motivation for your study. You can include citations like this \cite{exampleReference}. Explain the problem you're addressing and the scope of your paper.
+
+% Related Work Section
+\section{\textbf{Related Work}}
+\noindent
+Discuss previous work that relates to your topic. How has the problem been addressed in the past, and what solutions have been proposed by others?
+
+% Methodology Section
+\section{\textbf{Methodology}}
+\noindent
+Explain how you conducted your study or research. Include any experiments, data collection methods, or analysis techniques used.
+
+% Experiments and Results Section
+\section{\textbf{Experiments and Results}}
+\noindent
+Present the results of your experiments or research. Use figures, graphs, and tables to illustrate your findings.
+
+% Include figures
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=8cm, height=5cm]{image.png}
+  \caption{Description of the figure.}
+  \label{fig:example}
+\end{figure}
+
+% Conclusion Section
+\section{\textbf{Conclusion}}
+\noindent
+Summarize your findings and their implications. Discuss the limitations of your work and possible future research directions.
+
+% Acknowledgments Section
+\section{\textbf{Acknowledgments}}
+\noindent
+Acknowledge any financial support or contributions from colleagues and institutions.
+
+% Bibliography
+\scriptsize
+\begin{thebibliography}{9}
+\bibitem{exampleReference}
+
+\end{thebibliography}
+
+\end{document}
